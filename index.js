@@ -8,8 +8,8 @@ let isAlive = true
 let massage = " "
 
 
-
-if (sum <= 20) {
+function startGame() {
+    if (sum <= 20) {
      massage = "Do you want to draw a new card? 🙂"
     
 } else if (sum === 21) {
@@ -24,3 +24,6 @@ if (sum <= 20) {
 
 //console.log(hasBlackJack)
 console.log(massage)
+
+
+}
