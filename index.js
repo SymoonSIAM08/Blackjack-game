@@ -9,9 +9,9 @@ let massage = " "
 
 let massageEl = document.getElementById("massage-el")
 //console.log(massageEl)
-//let sumEl =document.getElementById("sum-el")
+let sumEl =document.getElementById("sum-el")
 //console.log("sumEl")
-let sumEl =document.querySelector("#sum-el")
+//let sumEl =document.querySelector("body")
 
 
 
