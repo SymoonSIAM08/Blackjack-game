@@ -62,52 +62,63 @@ body::before {
     z-index: 0;
 }
 
-h1 {
+/* h1 {
     color: #ffcc00; /* Goldish tone for luxury feel */
-    font-size: 2.5rem;
+    /* font-size: 2.5rem;
     margin-top: 30px;
     position: relative;
-    z-index: 1;
+    z-index: 1; */
+
+h1 {
+    color: #FFD700; /* Gold */
+    font-size: 2.8rem;
+    margin-bottom: 20px;
 }
 
-#massage-el {
+
+
+#message-el {
     font-style: italic;
-    font-size: 1.2rem;
-    margin-bottom: 15px;
-    position: relative;
-    z-index: 1;
+    color: #ffccff;
 }
+
 
 button {
-    color: #fff;
-    width: 160px;
-    background: linear-gradient(135deg, #ff007f, #8e2de2); /* pink to purple gradient */
-    font-weight: bold;
-    padding: 10px 0;
+    background: linear-gradient(135deg, #ff007f, #8e2de2);
+    color: white;
     border: none;
+    padding: 12px 0;
+    width: 160px;
     border-radius: 8px;
-    margin: 8px;
-    cursor: pointer;
+    margin: 10px;
+    font-weight: bold;
     font-size: 1rem;
-    transition: all 0.3s ease;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
-    position: relative;
-    z-index: 1;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    transition: 0.3s ease;
 }
 
 button:hover {
-    transform: translateY(-2px);
     background: linear-gradient(135deg, #ff3399, #9b30ff);
-    box-shadow: 0 6px 12px rgba(0,0,0,0.4);
+    transform: scale(1.05);
 }
+
 .container {
     position: relative;
     z-index: 2;
     max-width: 500px;
     margin: 60px auto;
-    background: rgba(0, 0, 0, 0.65); /* dark transparent background */
+    background: rgba(21, 21, 21, 0.797); /* dark transparent background */
     padding: 30px;
     border-radius: 12px;
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.7);
-}
+    box-shadow: 0 4px 16px rgba(47, 46, 46, 0.7);
+    backdrop-filter: blur(10px);
+-webkit-backdrop-filter: blur(10px);
+border: 1px solid rgba(59, 24, 24, 0.1);
 
+}
+p {
+    color: #f1f1f1;
+    font-size: 1.1rem;
+    margin: 10px 0;
+}
