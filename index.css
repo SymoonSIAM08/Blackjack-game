@@ -1,4 +1,4 @@
-body {
+/* body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-image: url(./wallpaperflare.com_wallpaper.jpg);
     background-size: cover;
@@ -37,4 +37,66 @@ button {
 
 
 
+} */
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(./wallpaperflare.com_wallpaper.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #f1f1f1;
+    font-weight: 600;
+    position: relative;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Optional dark overlay for better text readability */
+body::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.55); /* darker overlay */
+    z-index: 0;
+}
+
+h1 {
+    color: #ffcc00; /* Goldish tone for luxury feel */
+    font-size: 2.5rem;
+    margin-top: 30px;
+    position: relative;
+    z-index: 1;
+}
+
+#massage-el {
+    font-style: italic;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    position: relative;
+    z-index: 1;
+}
+
+button {
+    color: #fff;
+    width: 160px;
+    background: linear-gradient(135deg, #ff007f, #8e2de2); /* pink to purple gradient */
+    font-weight: bold;
+    padding: 10px 0;
+    border: none;
+    border-radius: 8px;
+    margin: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    position: relative;
+    z-index: 1;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    background: linear-gradient(135deg, #ff3399, #9b30ff);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.4);
 }
